@@ -1,19 +1,24 @@
-#  Teste Escola DevWorks
+# README
 
-Teste desenvolvido para empresa DevWorks.
-Teste está sendo desenvolvido:
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-* Ruby 2.6.0
+Things you may want to cover:
 
-* Rails 5.2.3
+* Ruby version
 
-* Docker
+* System dependencies
 
-* Docker-compose
+* Configuration
 
-* version: 3
+* Database creation
 
-* Database
+* Database initialization
 
-* Postgres 11
-![Relacionamento](database.png)
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...

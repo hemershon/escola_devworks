@@ -1,0 +1,42 @@
+<%= form_with(model: turma, local: true) do |form| %>
+  <% if turma.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(turma.errors.count, "error") %> prohibited this turma from being saved:</h2>
+
+      <ul>
+      <% turma.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :turma %>
+    <%= form.text_field :turma %>
+  </div>
+
+  <div class="field">
+    <%= form.label :turno %>
+    <%= form.text_field :turno %>
+  </div>
+
+  <div class="field">
+    <%= form.label :materia %>
+    <%= form.text_field :materia %>
+  </div>
+
+  <div class="field">
+    <%= form.label :aluno %>
+    <%= form.text_field :aluno %>
+  </div>
+
+  <div class="field">
+    <%= form.label :professor %>
+    <%= form.text_field :professor %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
