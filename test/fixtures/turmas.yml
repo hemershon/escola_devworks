@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  turma: MyString
+  turno: MyString
+  materia: MyString
+  aluno: MyString
+  professor: MyString
+
+two:
+  turma: MyString
+  turno: MyString
+  materia: MyString
+  aluno: MyString
+  professor: MyString
